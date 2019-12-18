@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec  2 19:22:19 2019
+# Process ID: 15012
+# Current directory: H:/363/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13896 H:\363\project_5\project_5.xpr
+# Log file: H:/363/project_5/vivado.log
+# Journal file: H:/363/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/363/project_5/project_5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl

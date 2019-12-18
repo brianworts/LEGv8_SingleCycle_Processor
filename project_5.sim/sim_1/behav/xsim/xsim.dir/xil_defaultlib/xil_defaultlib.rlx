@@ -1,0 +1,12 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+H:/363/project_5/project_5.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+H:/363/project_5/project_5.srcs/sim_1/new/testbench.v,1575487496,verilog,,,,testbench,,,,,,,,
+H:/363/project_5/project_5.srcs/sources_1/new/ALU.v,1575481541,verilog,,H:/363/project_5/project_5.srcs/sources_1/new/Controller.v,,ALU,,,,,,,,
+H:/363/project_5/project_5.srcs/sources_1/new/Controller.v,1575484240,verilog,,H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v,,Controller,,,,,,,,
+H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v,1575487163,verilog,,H:/363/project_5/project_5.srcs/sources_1/new/Processor.v,,Datapath,,,,,,,,
+H:/363/project_5/project_5.srcs/sources_1/new/Processor.v,1575484280,verilog,,H:/363/project_5/project_5.srcs/sources_1/new/Register.v,,Processor,,,,,,,,
+H:/363/project_5/project_5.srcs/sources_1/new/Register.v,1575434281,verilog,,H:/363/project_5/project_5.srcs/sources_1/new/Storage.v,,Register,,,,,,,,
+H:/363/project_5/project_5.srcs/sources_1/new/Storage.v,1575435471,verilog,,H:/363/project_5/project_5.srcs/sim_1/new/testbench.v,,Storage,,,,,,,,

@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Nov 14 13:37:55 2019
+# Process ID: 1144
+# Current directory: H:/363/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3080 H:\363\project_5\project_5.xpr
+# Log file: H:/363/project_5/vivado.log
+# Journal file: H:/363/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/363/project_5/project_5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port RD on this module [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-2063] Module <Register> not found while processing module instance <op1> [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-2063] Module <Controller> not found while processing module instance <op2> [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:106]
+ERROR: [VRFC 10-2063] Module <Datapath> not found while processing module instance <op3> [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:107]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port RD on this module [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-2063] Module <Register> not found while processing module instance <register> [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-2063] Module <Controller> not found while processing module instance <controller> [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:106]
+ERROR: [VRFC 10-2063] Module <Datapath> not found while processing module instance <datapath> [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:107]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2458] undeclared symbol Rd, assumed default net type wire [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:43]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:43]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:58]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:58]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:66]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:66]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:74]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:74]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:82]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:82]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:90]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:90]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:98]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Rd is not permitted, left-hand side should be reg/integer/time/genvar [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:98]
+ERROR: [VRFC 10-1040] module Processor ignored due to previous errors [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Rd [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port A [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+WARNING: [VRFC 10-278] actual bit length 9 differs from formal bit length 1 for port RWn [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Rd is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net A is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port A [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+WARNING: [VRFC 10-278] actual bit length 9 differs from formal bit length 1 for port RWn [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Rd is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net A is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 776.066 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 9 differs from formal bit length 1 for port RWn [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net Rd is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net A is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 9 differs from formal bit length 1 for port RWn [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net RD is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net A is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 776.656 ; gain = 0.172
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 9 differs from formal bit length 1 for port DTAddr [H:/363/project_5/project_5.srcs/sources_1/new/Processor.v:105]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net RD is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net A is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/363/project_5/project_5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/363/project_5/project_5.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto b6bb88ed20fa4300ab5d89fe1afc2363 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net RD is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:42]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net A is not permitted [H:/363/project_5/project_5.srcs/sim_1/new/testbench.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'H:/363/project_5/project_5.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 784.797 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 14 13:50:04 2019...
